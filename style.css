@@ -1,0 +1,77 @@
+body
+{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#tekst
+{
+    text-decoration: none;
+    color: red;
+}
+
+#tekst:hover
+{
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+div
+{
+    width: 100px;
+    text-align: center;
+}
+
+div:hover
+{
+    border: 5px solid rgb(100, 13, 13);
+    border-radius: 20px;
+}
+
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+td
+{
+    border: 1px solid black;
+}
+
+#t
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tabela:hover
+{
+    background-color: black;
+}
+
+#t:hover
+{
+    color: white;
+}
+
+img
+{
+    width: 200px;
+    height: 138px;
+}
+
+#obraz:hover
+{
+    box-shadow: 20px 20px 15px black;
+    border-radius: 15px;
+    transform: scale(1.05);
+}
